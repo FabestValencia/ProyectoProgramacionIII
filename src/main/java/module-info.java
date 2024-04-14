@@ -11,6 +11,8 @@ module co.edu.uniquindio.progra3.proyectoprogra3 {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens co.edu.uniquindio.progra3.proyectoprogra3 to javafx.fxml;
-    exports co.edu.uniquindio.progra3.proyectoprogra3;
+    exports Application;
+    opens Application to javafx.fxml;
+    exports Controllers;
+    opens Controllers to javafx.fxml;
 }

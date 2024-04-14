@@ -134,7 +134,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                co.edu.uniquindio.progra3.proyectoprogra3/co.edu.uniquindio.progra3.proyectoprogra3.HelloApplication
+                                co.edu.uniquindio.progra3.proyectoprogra3/Application.App
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
